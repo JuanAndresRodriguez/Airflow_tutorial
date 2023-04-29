@@ -1,0 +1,15 @@
+[2023-03-14T23:37:53.627+0000] {processor.py:154} INFO - Started process (PID=49) to work on /opt/airflow/dags/groups/group_downloads.py
+[2023-03-14T23:37:53.628+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/groups/group_downloads.py for tasks to queue
+[2023-03-14T23:37:53.629+0000] {logging_mixin.py:120} INFO - [2023-03-14T23:37:53.629+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/groups/group_downloads.py
+[2023-03-14T23:37:53.645+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/groups/group_downloads.py
+[2023-03-14T23:37:53.661+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/groups/group_downloads.py took 0.037 seconds
+[2023-03-14T23:38:24.022+0000] {processor.py:154} INFO - Started process (PID=85) to work on /opt/airflow/dags/groups/group_downloads.py
+[2023-03-14T23:38:24.024+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/groups/group_downloads.py for tasks to queue
+[2023-03-14T23:38:24.024+0000] {logging_mixin.py:120} INFO - [2023-03-14T23:38:24.024+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/groups/group_downloads.py
+[2023-03-14T23:38:24.046+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/groups/group_downloads.py
+[2023-03-14T23:38:24.061+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/groups/group_downloads.py took 0.042 seconds
+[2023-03-14T23:38:54.328+0000] {processor.py:154} INFO - Started process (PID=124) to work on /opt/airflow/dags/groups/group_downloads.py
+[2023-03-14T23:38:54.330+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/groups/group_downloads.py for tasks to queue
+[2023-03-14T23:38:54.332+0000] {logging_mixin.py:120} INFO - [2023-03-14T23:38:54.332+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/groups/group_downloads.py
+[2023-03-14T23:38:54.353+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/groups/group_downloads.py
+[2023-03-14T23:38:54.366+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/groups/group_downloads.py took 0.042 seconds

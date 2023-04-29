@@ -1,0 +1,15 @@
+[2023-03-14T23:37:53.685+0000] {processor.py:154} INFO - Started process (PID=50) to work on /opt/airflow/dags/groups/group_transforms.py
+[2023-03-14T23:37:53.686+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/groups/group_transforms.py for tasks to queue
+[2023-03-14T23:37:53.687+0000] {logging_mixin.py:120} INFO - [2023-03-14T23:37:53.687+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/groups/group_transforms.py
+[2023-03-14T23:37:53.703+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/groups/group_transforms.py
+[2023-03-14T23:37:53.717+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/groups/group_transforms.py took 0.035 seconds
+[2023-03-14T23:38:24.045+0000] {processor.py:154} INFO - Started process (PID=86) to work on /opt/airflow/dags/groups/group_transforms.py
+[2023-03-14T23:38:24.046+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/groups/group_transforms.py for tasks to queue
+[2023-03-14T23:38:24.046+0000] {logging_mixin.py:120} INFO - [2023-03-14T23:38:24.046+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/groups/group_transforms.py
+[2023-03-14T23:38:24.062+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/groups/group_transforms.py
+[2023-03-14T23:38:24.077+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/groups/group_transforms.py took 0.035 seconds
+[2023-03-14T23:38:54.344+0000] {processor.py:154} INFO - Started process (PID=125) to work on /opt/airflow/dags/groups/group_transforms.py
+[2023-03-14T23:38:54.345+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/groups/group_transforms.py for tasks to queue
+[2023-03-14T23:38:54.346+0000] {logging_mixin.py:120} INFO - [2023-03-14T23:38:54.346+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/groups/group_transforms.py
+[2023-03-14T23:38:54.362+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/groups/group_transforms.py
+[2023-03-14T23:38:54.374+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/groups/group_transforms.py took 0.033 seconds

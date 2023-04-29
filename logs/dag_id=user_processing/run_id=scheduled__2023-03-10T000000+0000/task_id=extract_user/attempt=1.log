@@ -1,0 +1,26 @@
+[2023-03-11T01:06:31.960+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: user_processing.extract_user scheduled__2023-03-10T00:00:00+00:00 [queued]>
+[2023-03-11T01:06:31.970+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: user_processing.extract_user scheduled__2023-03-10T00:00:00+00:00 [queued]>
+[2023-03-11T01:06:31.970+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-11T01:06:31.971+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2023-03-11T01:06:31.971+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-11T01:06:31.983+0000] {taskinstance.py:1383} INFO - Executing <Task(SimpleHttpOperator): extract_user> on 2023-03-10 00:00:00+00:00
+[2023-03-11T01:06:31.989+0000] {standard_task_runner.py:55} INFO - Started process 12858 to run task
+[2023-03-11T01:06:31.992+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'user_processing', 'extract_user', 'scheduled__2023-03-10T00:00:00+00:00', '--job-id', '13', '--raw', '--subdir', 'DAGS_FOLDER/user_processing.py', '--cfg-path', '/tmp/tmpkexlkt_0']
+[2023-03-11T01:06:31.994+0000] {standard_task_runner.py:83} INFO - Job 13: Subtask extract_user
+[2023-03-11T01:06:32.050+0000] {task_command.py:376} INFO - Running <TaskInstance: user_processing.extract_user scheduled__2023-03-10T00:00:00+00:00 [running]> on host bdc591f9d370
+[2023-03-11T01:06:32.106+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=user_processing
+AIRFLOW_CTX_TASK_ID=extract_user
+AIRFLOW_CTX_EXECUTION_DATE=2023-03-10T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-03-10T00:00:00+00:00
+[2023-03-11T01:06:32.107+0000] {http.py:121} INFO - Calling HTTP method
+[2023-03-11T01:06:32.117+0000] {base.py:71} INFO - Using connection ID 'user_api' for task execution.
+[2023-03-11T01:06:32.119+0000] {http.py:148} INFO - Sending 'GET' to url: https://randomuser.me/api/
+[2023-03-11T01:06:32.349+0000] {http.py:125} INFO - {"results":[{"gender":"female","name":{"title":"Mrs","first":"Zlata","last":"Ćirić"},"location":{"street":{"number":8706,"name":"TihomilЈa Nikolića "},"city":"Dimitrovgrad","state":"Srem","country":"Serbia","postcode":15539,"coordinates":{"latitude":"62.2211","longitude":"101.8280"},"timezone":{"offset":"-2:00","description":"Mid-Atlantic"}},"email":"zlata.ciric@example.com","login":{"uuid":"f166dd3d-00a4-4904-83b3-e8f2105b34d3","username":"bluetiger600","password":"powder","salt":"cQsLarro","md5":"5251fb61415a8874e935314d84e8aa66","sha1":"750c00ee961138760fc9d690c9949b6cf93eb897","sha256":"860dbf7137cec23d0240694e1afee852d2d14569026c9041d0a65d852cec06da"},"dob":{"date":"1998-08-06T19:35:34.008Z","age":24},"registered":{"date":"2005-07-02T06:53:21.028Z","age":17},"phone":"013-7238-250","cell":"060-6423-355","id":{"name":"SID","value":"164196099"},"picture":{"large":"https://randomuser.me/api/portraits/women/8.jpg","medium":"https://randomuser.me/api/portraits/med/women/8.jpg","thumbnail":"https://randomuser.me/api/portraits/thumb/women/8.jpg"},"nat":"RS"}],"info":{"seed":"cbea33a124557b23","results":1,"page":1,"version":"1.4"}}
+[2023-03-11T01:06:32.371+0000] {taskinstance.py:1406} INFO - Marking task as SUCCESS. dag_id=user_processing, task_id=extract_user, execution_date=20230310T000000, start_date=20230311T010631, end_date=20230311T010632
+[2023-03-11T01:06:32.405+0000] {local_task_job.py:164} INFO - Task exited with return code 0
+[2023-03-11T01:06:32.431+0000] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check
